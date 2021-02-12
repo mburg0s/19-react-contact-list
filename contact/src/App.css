@@ -2,3 +2,132 @@
   margin: 0;
   padding: 0;
 }
+
+
+.peepContainer,.detailContainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35%;
+  /* padding: 20px; */
+  border: 1px solid rgba(63, 62, 62, 0.144);
+  border-width: thin;
+
+}
+
+.linkClass {
+  text-decoration: none;
+  color: black;
+  /* padding: 20px; */
+  margin-top: 10px;
+  /* width: 100%; */
+
+}
+.nameClass {
+  position: relative;
+  top: -15px;
+  padding: 10px;
+}
+
+.peepContainer li {
+  list-style: none;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  text-decoration: none;
+  border-bottom: 1px solid rgba(63, 62, 62, 0.144);
+  border-width: thin;
+  width: 100%;
+
+}
+
+/* .peepContainer img { */
+  .contactPic {
+  /* float: left; */
+  border-radius: 50%;
+  /* height: 50px;
+  width: 50px; */
+  /* padding-top: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+.name {
+  text-decoration: none;
+
+ 
+}
+.detailContainer {
+  color: black;
+
+}
+.picContainer {
+  display: flex;
+  justify-content:center;
+  /* margin-top: 10px; */
+  padding-top: 30px; 
+  padding-bottom: auto;
+  /* padding: 20px; */
+  /* width: 100%; */
+  height: 150px;
+  background-color: rgb(115, 173, 115);
+
+}
+.lrgPicClass {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+span {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.myPeeps{
+  text-align: left;
+  /* padding-top: 20px; */
+  /* padding: 20px; */
+  height: 70px;
+  width: 100%;
+  background-color: rgb(115, 173, 115);
+  color: white;
+}
+h1 {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.nameDetailClass, 
+.emailClass, 
+.cellClass, 
+.locationClass {
+  width: 98%;
+  border-bottom: 1px solid rgba(63, 62, 62, 0.144);
+  border-width: thin;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  /* padding: 20px; */
+}
+.goBack {
+  position: relative;
+  left: -130px;
+  top: -15px;
+  
+
+}
+.back{
+  color: black;
+  font-size: 30px;
+  font-stretch: 30px;
+}
+.linkBack {
+  text-decoration: none;
+}
+.iconEmail,.iconCell {
+  font-size: 20px;
+  /* color: black; */
+
+}
